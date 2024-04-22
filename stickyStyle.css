@@ -1,0 +1,38 @@
+section {
+    align-items: center;
+    background: #fff;
+    border-radius: 10px;
+
+}
+
+section h2 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+article {
+    width: 450px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#sticky-container span{
+    width: 250px;
+    background-color: lightgray;
+    border-radius: 30%;
+
+}
+
+#input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sticky-note {
+    background-color: lavender;
+    border-radius: 5%;
+    margin: 5px;
+    text-align: center;
+}
