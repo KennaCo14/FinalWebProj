@@ -2,19 +2,21 @@
 <html>
     <head>
         <title>PinIt</title>
-        <link rel="stylesheet" href="styles/remindStyle.css">
-        <link rel="stylesheet" href="styles/calendarStyle.css">
-        <link rel="stylesheet" href="styles/stickyStyle.css">
         <link rel="stylesheet" href="styles/mainStyle.css">
-        
-        <script  src="domain.js" defer></script>
-        <script  src="ui.js" defer></script>
+        <link rel="stylesheet" href="styles/calendarStyle.css">
+
 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://kit.fontawesome.com/54d529f836.js" crossorigin="anonymous"></script>
+
+        <script  src="domain.js" defer></script>
+        <script  src="ui.js" defer></script>
+
     </head>
+
     <body>
+
         <nav>
             <figure class="image">
                 <img src="images/colorPins.webp" style="width:100%">
@@ -30,17 +32,7 @@
             </figure>
 
         </nav>
-        
         <main>
-
-            <aside>
-                <h1>Reminders</h1>
-                <div class="input-container">
-                    <input type="text" id="taskInput" placeholder="Add new reminder">
-                    <button onclick="addTask()">Add</button>
-                </div>
-                <ul id="taskList"></ul>
-            </aside>
             <div class="wrapping">
                 <header>
                     <p class="current-date"></p>
@@ -57,39 +49,13 @@
                         <li>Thur</li>
                         <li>Fri</li>
                         <li>Sat</li>
-
+    
                     </ul>
                     <ul class="days"></ul>
                 </div>
             </div>
-
-            <section class="right-area">
-                <h2>Sticky Note</h2>
-
-                <article>
-                    <div id="sticky-container">
-                        <div class="sticky-note">
-                          <div class="sticky-header">
-                            <span class="close-btn">&times;</span>
-                          </div>
-                          <div class="sticky-body"></div>
-                        </div>
-                      </div>
-                      
-                      <div id="input-container">
-                        <input type="text" id="note-input" placeholder="Type your note here">
-                        <button id="add-note-btn">Add Note</button>
-                      </div>
-                </article>
-            </section>
+    
     
         </main>
-
-        <footer>
-            <h6>A very lackluster webpage!</h6>
-
-        </footer>
-        
     </body>
-
 </html>

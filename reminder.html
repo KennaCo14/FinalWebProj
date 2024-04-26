@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PinIt</title>
+        <link rel="stylesheet" href="styles/mainStyle.css">
+        <link rel="stylesheet" href="styles/remindStyle.css">
+
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/54d529f836.js" crossorigin="anonymous"></script>
+
+        <script  src="domain.js" defer></script>
+        <script  src="ui.js" defer></script>
+
+    </head>
+    <body> 
+        <nav>
+            <figure class="image">
+                <img src="images/colorPins.webp" style="width:100%">
+                <figcaption>
+                            
+                    <h1>PinIt Planner</h1>
+                    <a href="index.html">Home</a>
+                    <a href="reminder.html">Reminder Only</a>
+                    <a href="sticky.html">Sticky Only</a>
+                    <a href="calendar.html"> Calendar Only</a>
+
+                </figcaption>
+            </figure>
+
+        </nav>
+
+
+        <main>
+            <aside>
+                <h1>Reminders</h1>
+                <div class="input-container">
+                    <input type="text" id="taskInput" placeholder="Add new reminder">
+                    <button onclick="addTask()">Add</button>
+                </div>
+                <ul id="taskList"></ul>
+            </aside>
+
+        </main>
+    </body>
+</html>

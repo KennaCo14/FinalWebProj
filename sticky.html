@@ -2,17 +2,17 @@
 <html>
     <head>
         <title>PinIt</title>
-        <link rel="stylesheet" href="styles/remindStyle.css">
-        <link rel="stylesheet" href="styles/calendarStyle.css">
-        <link rel="stylesheet" href="styles/stickyStyle.css">
         <link rel="stylesheet" href="styles/mainStyle.css">
-        
-        <script  src="domain.js" defer></script>
-        <script  src="ui.js" defer></script>
+        <link rel="stylesheet" href="styles/stickyStyle.css">
+
 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://kit.fontawesome.com/54d529f836.js" crossorigin="anonymous"></script>
+
+        <script  src="domain.js" defer></script>
+        <script  src="ui.js" defer></script>
+
     </head>
     <body>
         <nav>
@@ -30,39 +30,7 @@
             </figure>
 
         </nav>
-        
         <main>
-
-            <aside>
-                <h1>Reminders</h1>
-                <div class="input-container">
-                    <input type="text" id="taskInput" placeholder="Add new reminder">
-                    <button onclick="addTask()">Add</button>
-                </div>
-                <ul id="taskList"></ul>
-            </aside>
-            <div class="wrapping">
-                <header>
-                    <p class="current-date"></p>
-                    <div class="icons">
-                        <i class="fa-solid fa-chevron-right"></i>  
-                    </div>
-                </header>
-                <div class="calendar">
-                    <ul class="weeks">
-                        <li>Sun</li>
-                        <li>Mon</li>
-                        <li>Tues</li>
-                        <li>Wed</li>
-                        <li>Thur</li>
-                        <li>Fri</li>
-                        <li>Sat</li>
-
-                    </ul>
-                    <ul class="days"></ul>
-                </div>
-            </div>
-
             <section class="right-area">
                 <h2>Sticky Note</h2>
 
@@ -82,14 +50,7 @@
                       </div>
                 </article>
             </section>
-    
+
         </main>
-
-        <footer>
-            <h6>A very lackluster webpage!</h6>
-
-        </footer>
-        
     </body>
-
 </html>
